@@ -168,7 +168,7 @@ reward:
      - img: /img/wechat.jpg
        link:
        text: wechat
-     - img: /img/alipay.jpg
+     - img: node_modules\hexo-theme-butterfly\source\img\alipay.jpg
        link:
        text: alipay
 

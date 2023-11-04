@@ -401,15 +401,28 @@ addtoany:
 # --------------------------------------
 
 comments:
-  # Up to two comments system, the first will be shown as default
+  # 最多两个注释系统，第一个将显示为默认值
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: # Valine,Disqus
-  text: true # Display the comment name next to the button
-  # lazyload: The comment system will be load when comment element enters the browser's viewport.
-  # If you set it to true, the comment count will be invalid
+  use: waline # Valine,Disqus
+  text: false # 在按钮旁边显示注释名称
+  # lazyload: 注释系统将在注释元素进入浏览器视口时加载。
+  # 如果将其设置为true，则注释计数将无效
   lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  count: true # 在文章的top_img中显示评论计数
+  card_post_count: true # 在主页中显示评论计数
+  waline_css: /css/waline.css
+  waline_js: /js/waline.js
+
+# waline - A simple comment system with backend support fork from Valine
+# https://waline.js.org/
+waline:
+  serverURL: https:/recommend.tomandjerrychase-consciouscourse.cn # 填写自己刚刚在 Vercel 中绑定的域名
+  bg: # waline background
+  pageview: false
+  option:
+    requiredMeta: [ nick, mail ] # 选定昵称和评论为必填项
+    locale:
+      placeholder: 昵称和邮箱为必填项，为了您能及时收到相关回复的邮件通知，请确保邮箱的正确性！ # 内容区提示
 
 # disqus
 # https://disqus.com/
@@ -451,13 +464,7 @@ valine:
   visitor: false
   option:
 
-# waline - A simple comment system with backend support fork from Valine
-# https://waline.js.org/
-waline:
-  serverURL: # Waline server address url
-  bg: # waline background
-  pageview: false
-  option:
+
 
 # utterances
 # https://utteranc.es/

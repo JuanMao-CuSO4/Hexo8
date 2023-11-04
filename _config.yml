@@ -101,7 +101,7 @@ ignore:
 theme: butterfly
 markdown:
     plugins:
-      - '@renbaoshuo/markdown-it-katex'
+      
 
 
 # Deployment

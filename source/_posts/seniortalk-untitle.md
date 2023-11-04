@@ -4,7 +4,7 @@ date: 2023.10.25
 auto_excerpt:
   enable: true
   length: 150
-categories: seniortalk
+categories: 高中杂谈
 updated: 2023.10.25
 tag: [高中杂谈]
 keywords: 恋爱脑

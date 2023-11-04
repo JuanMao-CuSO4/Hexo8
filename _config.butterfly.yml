@@ -165,10 +165,10 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: /img/alipay.png
+    - img: /img/wechat.jpg
       link: 
       text: 微信
-    - img: /img/alipay.png
+    - img: /img/alipay.jpg
       link: 
       text: 支付宝
 

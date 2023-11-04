@@ -4,7 +4,7 @@ date: 2023.10.25
 auto_excerpt:
   enable: true
   length: 150
-categories: 高中杂谈
+categories: seniortalk
 updated: 2023.10.25
 tag: [高中杂谈]
 keywords: 恋爱脑
@@ -173,4 +173,4 @@ keywords: 恋爱脑
   - 3.3　电动车的新人
   - ......
 
-<img src="./seniortalk/image-20231030210324629.png" alt="image-20231030210324629" style="zoom:50%;" />
+<img src="./seniortalk-untitle/image-20231030210324629.png" alt="image-20231030210324629" style="zoom:50%;" />

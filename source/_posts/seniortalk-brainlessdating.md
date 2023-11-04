@@ -4,11 +4,12 @@ date: 2023.10.7
 auto_excerpt:
   enable: true
   length: 150
+cover: https://pic.imgdb.cn/item/6545af12c458853aef9c219e.jpg
 categories: 高中杂谈
 updated: 2023.10.22
 tag: [高中杂谈]
 keywords: 恋爱脑
-
+top: 100
 ---
 
 # 高中杂谈-恋爱脑的故事

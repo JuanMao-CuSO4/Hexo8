@@ -349,7 +349,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -416,7 +416,7 @@ comments:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https:/recommend.tomandjerrychase-consciouscourse.cn # 填写自己刚刚在 Vercel 中绑定的域名
+  serverURL: recommend.tomandjerrychase-consciouscourse.cn # 填写自己刚刚在 Vercel 中绑定的域名
   bg: # waline background
   pageview: false
   option:

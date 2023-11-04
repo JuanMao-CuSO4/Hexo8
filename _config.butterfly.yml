@@ -350,7 +350,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -921,6 +921,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+
     # - <script src="xxxx"></script>
 
 # CDN

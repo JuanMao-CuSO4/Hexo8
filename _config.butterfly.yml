@@ -408,7 +408,7 @@ comments:
   text: true # 在按钮旁边显示注释名称
   # lazyload: 注释系统将在注释元素进入浏览器视口时加载。
   # 如果将其设置为true，则注释计数将无效
-  lazyload: true
+  lazyload: false
   count: true # 在文章的top_img中显示评论计数
   card_post_count: true # 在主页中显示评论计数
   waline_css: /css/waline.css
@@ -425,6 +425,18 @@ waline:
     requiredMeta: [ nick, mail ] # 选定昵称和评论为必填项
     locale:
       placeholder: 为及时收到回复，请准确填写您的邮箱和昵称！如果你想自定义展示头像等，请登录 # 内容区提示
+
+# valine
+# https://valine.js.org
+valine:
+  appId: N2uu12b7pIrMAO4cDUyWRF3m-MdYXbMMI
+  appKey: aMI23D2frpHGi5mcBF2y7ys1
+  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+  serverURLs: aMI23D2frpHGi5mcBF2y7ys1 # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  bg: # valine background
+  visitor: true
+  option:
+
 
 # disqus
 # https://disqus.com/
@@ -455,16 +467,8 @@ gitalk:
   admin:
   option:
 
-# valine
-# https://valine.js.org
-valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
-  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: # valine background
-  visitor: false
-  option:
+
+
 
 
 

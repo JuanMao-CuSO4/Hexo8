@@ -404,7 +404,7 @@ addtoany:
 comments:
   # 最多两个注释系统，第一个将显示为默认值
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: waline # Valine,Disqus
+  use: waline,Valine # Valine,Disqus
   text: true # 在按钮旁边显示注释名称
   # lazyload: 注释系统将在注释元素进入浏览器视口时加载。
   # 如果将其设置为true，则注释计数将无效

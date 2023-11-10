@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: # image
+  logo: /img/仙女鼠.png # image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -18,7 +18,8 @@ menu:
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
   相关链接: /link/ || fas fa-link
-  关于卷毛叔: /about/ || fas fa-heart
+  关于卷毛叔||fa fa-heart:
+    卷の哔站: https://space.bilibili.com/455341034/ || fas fa-tv
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -41,7 +42,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/仙女鼠.png
 
 # Avatar (頭像)
 avatar:

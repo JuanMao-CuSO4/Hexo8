@@ -33,6 +33,8 @@ skip_render:
    -  "baidu/*"
    -  "baidu_verify_codeva-3wRwmhoe1P"
    -  "demo6.html"
+   -  "speedrun/mark.html"
+   -  "mark.html"
 
 # Writing
 new_post_name: :title.md # File name of new posts

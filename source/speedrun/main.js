@@ -23,6 +23,8 @@ document.querySelector('#table-demo-filterCode').GM({
     gridManagerName: 'demo-filterCode',
     ajaxData: 'https://api.myjson.online/v1/records/0b882a9e-0805-4f51-a48c-9ace94ab6029',
     ajaxType: 'GET',
+    weight:'1000px', 
+    height: '900px',
     columnData: [
         {
             key: 'person',

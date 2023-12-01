@@ -1,5 +1,5 @@
 ---
-title: 猫和老鼠手游 速通手册V1.02
+title: 猫和老鼠手游 速通
 date: 2022.7.15
 categories: 速通
 updated: 2023.12.01

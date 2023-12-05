@@ -1,3 +1,4 @@
+// 博文类型
 const TYPE_MAP = {
     '经典之家1': '经典之家1',
     '经典之家2': '经典之家2',
@@ -21,7 +22,7 @@ const TYPE_MAP = {
 };
 document.querySelector('#table-demo-filterCode').GM({
     gridManagerName: 'demo-filterCode',
-    ajaxData: 'https://api.myjson.online/v1/records/0b882a9e-0805-4f51-a48c-9ace94ab6029',
+    ajaxData: 'https://api.myjson.online/v1/records/e5f41d11-76f9-4727-a557-fe5aaceb970d',
     ajaxType: 'GET',
     weight:'1000px', 
     height: '900px',
@@ -77,16 +78,48 @@ document.querySelector('#table-demo-filterCode').GM({
             }
         }, {
             key: 'time',
-            width: '130px',
+            width: '130px',  
             text: '速通时间',
             sorting: '',
-        }, {
+
+  // 添加模板函数
+            template: function(time) {
+            if(!time || time === "cancelled" ||time==="?" || time === "Cancelled")  {
+                return 'N/A'; 
+            }
+    // value是原始excel时间值
+            let totalMilliseconds = time * 86400000;
+            let minutes = Math.floor(totalMilliseconds / 60000);
+            let seconds = Math.floor((totalMilliseconds % 60000) / 1000);
+            let milliseconds = Math.round(totalMilliseconds % 1000);
+            return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0')}`;}
+              }
+              ,
+            {
             key: 'date',
             align: 'center',
             width: '200px',
-            text: '速通时间/投稿时间',
             remind: '如果是经由小程序投稿，显示为投稿时间。如果非小程序投稿，显示为对应平台的视频投稿时间。',
-            disableMoveRow: true
-        }
+            text: '速通时间/投稿时间',
+            template: function(date) {
+             // 1. 处理为时间毫秒数 
+            const milliseconds = (date - 25569) * 86400 * 1000;
+            // 2. 生成 Date 对象
+            const DaTE = new Date(milliseconds);
+
+            // 3. 获取日期时间元素
+            const year = DaTE.getFullYear();
+            const month = DaTE.getMonth() + 1; 
+            const day = DaTE.getDate();
+
+            const hours = DaTE.getHours();
+            const minutes = DaTE.getMinutes();
+            const seconds = DaTE.getSeconds();
+
+
+            // 4. 拼接返回日期时间格式
+            return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+            
+            }}
     ]
 });

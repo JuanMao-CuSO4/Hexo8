@@ -25,7 +25,7 @@ document.querySelector('#table-demo-filterCode').GM({
     ajaxData: 'https://api.myjson.online/v1/records/e5f41d11-76f9-4727-a557-fe5aaceb970d',
     ajaxType: 'GET',
     weight:'1000px', 
-    height: '900px',
+    height: '1600px',
     columnData: [
         {
             key: 'person',

@@ -11,11 +11,11 @@ tag: [速通]
 
 规则：
 
-https://www.tomandjerrychase-consciouscourse.cn/speedrun/instruction
+https://www.tomandjerrychase-consciouscourse.cn/speedrun/instruction.html
 
 投稿：
 
-https://www.tomandjerrychase-consciouscourse.cn/speedrun/author_instruction
+https://www.tomandjerrychase-consciouscourse.cn/speedrun/author_instruction.html
 
 榜单：
 

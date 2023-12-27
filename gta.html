@@ -1,0 +1,66 @@
+<!--或者下载到本地，下面有下载地址-->
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="DataTables-1.10.21/media/css/jquery.dataTables.css">
+ 
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="DataTables-1.10.21/media/js/jquery.js"></script>
+ 
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="DataTables-1.10.21/media/js/jquery.dataTables.js"></script>
+ 
+ 
+ 
+ 
+<!--第二步：添加如下 HTML 代码-->
+<table id="table_id_example" class="display">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Map</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Person</th>
+            <th>Character</th>
+        </tr>
+    </thead>
+    <!-- 注意：不再需要嵌入的<tbody>部分 -->
+</table>
+ 
+ 
+<!-- 初始化 DataTables -->
+<script>
+    $(document).ready( function () {
+        // 使用 $.getJSON 方法加载外部 JSON 数据
+        $('#table_id_example').DataTable({
+        ajax: {
+        url: 'https://api.myjson.online/v1/records/e5f41d11-76f9-4727-a557-fe5aaceb970d',
+        dataSrc: 'data',
+        timeout: 5000
+    },
+                columns: [
+                    { data: 'id' },
+                    { data: 'map' },
+                    { data: 'date',   render: function(data) {
+                        var showDate = new Date((data - 25569) * 86400 * 1000);
+
+                        return showDate.toLocaleDateString();}},
+
+                        {
+  data: 'time',
+  template: function(time) {
+            if(!time || time === "cancelled" ||time==="?" || time === "Cancelled")  {
+                return 'N/A'; 
+            }
+    // value是原始excel时间值
+            let totalMilliseconds = time * 86400000;
+            let minutes = Math.floor(totalMilliseconds / 60000);
+            let seconds = Math.floor((totalMilliseconds % 60000) / 1000);
+            let milliseconds = Math.round(totalMilliseconds % 1000);
+            return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0')}`;}},
+
+                    {data: 'person' },
+                    {data: 'character' }
+                ]
+            });
+    });
+</script>

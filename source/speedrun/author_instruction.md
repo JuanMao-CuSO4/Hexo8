@@ -11,8 +11,7 @@ tag: [速通]
 **究极省流：**
 
 <details>
-
-<summary>如果你是粉丝，你关注的主播/up打出了速通，你希望他们出现在速通榜单上，请戳这里</summary>
+<summary>如果**你是粉丝**，你关注的主播/up打出了速通，你希望他们出现在速通榜单上，请戳这里</summary>
 
 * 请把BV号/链接私发给我，并进行必要的备注
 
@@ -21,17 +20,16 @@ tag: [速通]
 
 
 <details>
-
-<summary>如果你是粉丝，你关注的主播/up投稿戳这里</summary>
+<summary>如果你是**速通者本人**，戳这里</summary>
 
 * 如果你已经在视频平台投稿，请把BV号/链接私发给我，并进行必要的备注
-* 如果你尚未投稿，且想要上卷毛叔视频的，请向下查看视频要求：
+* 如果你尚未在任何地方投稿，且想要上卷毛叔视频的，请向下查看视频要求：
 
 </details>
 
 
 
-一、视频要求：
+## 一、视频要求：
 
 录制比赛从头到尾，【带内录】的清晰录像，
 
@@ -50,13 +48,13 @@ tag: [速通]
 
 1.
 
-<img src="./author_instruction/31aa9f3f6dc920f327136b8d9863c4ded18d3c66.jpg@1256w_580h_!web-article-pic.webp" style="zoom:50%;" />
+<img src="./author_instruction/31aa9f3f6dc920f327136b8d9863c4ded18d3c66.jpg@1256w_580h_!web-article-pic-1703658618854-6.webp" style="zoom:50%;" />
 
 在战绩界面点击你速通的对局
 
 2.
 
-<img src="./author_instruction/d11120ef3d188227b37594bca8194534bff115a2.jpg@1256w_580h_!web-article-pic.webp" style="zoom:50%;" />
+<img src="./author_instruction/d11120ef3d188227b37594bca8194534bff115a2.jpg@1256w_580h_!web-article-pic-1703658617429-4.webp" style="zoom:50%;" />
 
 在这个界面上，开始录屏，请内录游戏原声
 
@@ -68,7 +66,7 @@ tag: [速通]
 
 4.
 
-<img src="./author_instruction/8ba5c51e0998c4d043cefe40e007b1e921579b78.jpg@1256w_580h_!web-article-pic.webp" style="zoom:50%;" />
+<img src="./author_instruction/8ba5c51e0998c4d043cefe40e007b1e921579b78.jpg@1256w_580h_!web-article-pic-1703658615235-2.webp" style="zoom:50%;" />
 
 再次回到该页面时停止录像
 
@@ -84,20 +82,20 @@ tag: [速通]
 
   
 
-**二.投稿方法：**
+## **二.投稿方法：**
 
 **微信或QQ扫下面的二维码**
 
-![](./author_instruction/8a055e0fca4445cdf832fa01e4e8b20cfefb8d92.jpg@!web-article-pic.webp)
+![qrcode](./author_instruction/qrcode.png)
 
-微信与QQ扫码都可以参加活动
+或者复制、点击链接[http://login.tomandjerrychase-consciouscourse.cyou:8999/s/mi204oo7](http://login.tomandjerrychase-consciouscourse.cyou:8999/s/mi204oo7)
 
-在界面上按要求填写相关信息
+按照界面按钮提示填写投稿信息即可
 
-  
+
 
 **投稿Q&A**
-=========
+---------
 
 Q：不按照投稿规则会怎么样？
 
@@ -107,15 +105,13 @@ Q：我没有微信怎么办？
 
 A：QQ也可以扫二维码投稿！
 
-Q：微信小程序上传速度过慢？
+Q：上传速度过慢？
 
 A：尝试解决办法：
 
 1、文件体积过大，请务必耐心等待
 
 2、重试或尝试在网络比较稳定的环境上传；
-
-3、在微信聊天界面下拉，长按fotoo小程序删除，再上传。
 
 Q：投稿有其他问题怎么办？
 
@@ -133,7 +129,7 @@ A：私聊我进行讨论
 
   
 
-**三：非规范的投稿处理办法：**
+## **三：非规范的投稿处理办法：**
 
 稿件评级机制：
 
@@ -143,7 +139,9 @@ A：私聊我进行讨论
 
 **（****例如-1级稿件等级从A降为B，-2级从A降为C）**
 
-![](./author_instruction/41da20da35a779d9bc5385c558cbb06dcec88c1c.jpg@!web-article-pic.webp)各个稿件对应的待遇
+![](./author_instruction/41da20da35a779d9bc5385c558cbb06dcec88c1c.jpg@!web-article-pic.webp)
+
+各个稿件对应的待遇
 
   
 

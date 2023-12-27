@@ -17,7 +17,7 @@ menu:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
-    速通专区: /speedrun/speed.md || fas fa-clock
+    速通专区: /speedrun/speed.html || fas fa-clock
   相关链接: /link/ || fas fa-link
   关于卷毛叔||fa fa-heart:
     卷の哔站: https://space.bilibili.com/455341034/ || fas fa-tv

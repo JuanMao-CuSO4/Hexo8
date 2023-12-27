@@ -48,13 +48,13 @@ tag: [速通]
 
 1.
 
-<img src="./author_instruction/31aa9f3f6dc920f327136b8d9863c4ded18d3c66.jpg@1256w_580h_!web-article-pic-1703658618854-6.webp" style="zoom:50%;" />
+<img src="./author_instruction/31aa9f3f6dc920f327136b8d9863c4ded18d3c66.jpg@1256w_580h_!web-article-pic-1703658618854-6-1703659547811-8.webp" style="zoom:50%;" />
 
 在战绩界面点击你速通的对局
 
 2.
 
-<img src="./author_instruction/d11120ef3d188227b37594bca8194534bff115a2.jpg@1256w_580h_!web-article-pic-1703658617429-4.webp" style="zoom:50%;" />
+<img src="./author_instruction/d11120ef3d188227b37594bca8194534bff115a2.jpg@1256w_580h_!web-article-pic-1703658617429-4-1703659549689-10.webp" style="zoom:50%;" />
 
 在这个界面上，开始录屏，请内录游戏原声
 
@@ -66,7 +66,7 @@ tag: [速通]
 
 4.
 
-<img src="./author_instruction/8ba5c51e0998c4d043cefe40e007b1e921579b78.jpg@1256w_580h_!web-article-pic-1703658615235-2.webp" style="zoom:50%;" />
+<img src="./author_instruction/8ba5c51e0998c4d043cefe40e007b1e921579b78.jpg@1256w_580h_!web-article-pic-1703658615235-2-1703659551813-12.webp" style="zoom:50%;" />
 
 再次回到该页面时停止录像
 
@@ -86,7 +86,7 @@ tag: [速通]
 
 **微信或QQ扫下面的二维码**
 
-![qrcode](./author_instruction/qrcode.png)
+![qrcode](./author_instruction/qrcode-1703659567274-14.png)
 
 或者复制、点击链接[http://login.tomandjerrychase-consciouscourse.cyou:8999/s/mi204oo7](http://login.tomandjerrychase-consciouscourse.cyou:8999/s/mi204oo7)
 

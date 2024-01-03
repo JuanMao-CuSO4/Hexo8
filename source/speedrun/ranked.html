@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speedrun Data</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+</head>
+<body>
+    <table id="speedrunTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>速通人</th>
+                <th>角色</th>
+                <th>地图</th>
+                <th>时间</th>
+                <th>日期</th>
+                <th>对手类型</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+            $.extend(true, $.fn.dataTable.defaults, {
+        "language": {
+            "url": "https://datatables.club/assets/Chinese.txt"
+        }});
+        $(document).ready(function() {
+            $('#speedrunTable').DataTable({
+                "ajax": {
+                    "url": "http://206.237.6.6:5000/get-data",
+                    "dataSrc": "data"
+                },
+                "columns": [
+                    { "data": "id" },
+                    { "data": "person" },
+                    { "data": "character" },
+                    { "data": "map" },
+                    { "data": "time" },
+                    { "data": "date" },
+                    { "data": "opponent" }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

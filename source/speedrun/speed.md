@@ -19,5 +19,5 @@ https://www.tomandjerrychase-consciouscourse.cn/speedrun/author_instruction.html
 
 榜单：
 
-https://www.tomandjerrychase-consciouscourse.cn/speedrun/main.html
+https://www.tomandjerrychase-consciouscourse.cn/speedrun/ranked.html
 

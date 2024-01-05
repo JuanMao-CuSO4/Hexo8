@@ -2,12 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Speedrun Data</title>
+    <title>速通目录</title>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
 </head>
 <body>
+    <select id="filterCharacter" class="form-control">
+        <option value="">选择角色</option>
+        <!-- 动态选项将在这里填充 -->
+    </select>
+    
+    <select id="filterMap" class="form-control">
+        <option value="">选择地图</option>
+        <!-- 动态选项将在这里填充 -->
+    </select>
     <table id="speedrunTable" class="display" style="width:100%">
         <thead>
             <tr>
@@ -25,12 +34,15 @@
     </table>
 
     <script>
-            $.extend(true, $.fn.dataTable.defaults, {
-        "language": {
-            "url": "https://datatables.club/assets/Chinese.txt"
-        }});
+        // 扩展 DataTables 默认设置
+        $.extend(true, $.fn.dataTable.defaults, {
+            "language": {
+                "url": "https://datatables.club/assets/Chinese.txt"
+            }
+        });
+    
         $(document).ready(function() {
-            $('#speedrunTable').DataTable({
+            var table = $('#speedrunTable').DataTable({
                 "ajax": {
                     "url": "https://login.tomandjerrychase-consciouscourse.cyou/get-data",
                     "dataSrc": "data"
@@ -43,9 +55,42 @@
                     { "data": "time" },
                     { "data": "date" },
                     { "data": "opponent" }
-                ]
+                ],
+                "initComplete": function(settings, json) {
+                    // 初始化下拉菜单
+                    initDropdowns(json.data);
+                }
+            });
+    
+            // 初始化下拉菜单
+            function initDropdowns(data) {
+                var characters = new Set();
+                var maps = new Set();
+    
+                data.forEach(function(row) {
+                    characters.add(row.character);
+                    maps.add(row.map);
+                });
+    
+                characters.forEach(function(character) {
+                    $('#filterCharacter').append($('<option>', { value: character, text: character }));
+                });
+    
+                maps.forEach(function(map) {
+                    $('#filterMap').append($('<option>', { value: map, text: map }));
+                });
+            }
+    
+            // 设置下拉菜单筛选功能
+            $('#filterCharacter').on('change', function() {
+                table.column(2).search(this.value).draw();
+            });
+    
+            $('#filterMap').on('change', function() {
+                table.column(3).search(this.value).draw();
             });
         });
     </script>
+    
 </body>
 </html>

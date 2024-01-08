@@ -9,15 +9,15 @@ tag: [速通]
 
 # 猫和老鼠手游 速通首页
 
-规则：
+## 规则：
 
 https://www.tomandjerrychase-consciouscourse.cn/speedrun/instruction.html
 
-投稿：
+## 投稿：
 
 https://www.tomandjerrychase-consciouscourse.cn/speedrun/author_instruction.html
 
-榜单：
+### 榜单：
 
 https://www.tomandjerrychase-consciouscourse.cn/speedrun/ranked.html
 

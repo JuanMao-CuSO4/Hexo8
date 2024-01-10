@@ -420,7 +420,7 @@ comments:
 # https://waline.js.org/
 
 waline:
-  serverURL: recommend.tomandjerrychase-consciouscourse.cn # 填写自己刚刚在 Vercel 中绑定的域名
+  serverURL: https://recommend.tomandjerrychase-consciouscourse.cn/ # 填写自己刚刚在 Vercel 中绑定的域名
   bg: # waline background
   pageview: false
   option:

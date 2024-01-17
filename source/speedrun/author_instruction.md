@@ -33,7 +33,7 @@ tag: [速通]
 
 
 
-你可能会用到的录屏软件：[[下载链接]](https://login.tomandjerrychase-consciouscourse.cyou:8888/down/SxbQTGhKUwgr.apk)
+### <font color=red>你可能会用到的录屏软件：</font>[[下载链接]](https://login.tomandjerrychase-consciouscourse.cyou:8888/down/SxbQTGhKUwgr.apk)
 
 ——感谢4399王老板提供的安装包
 

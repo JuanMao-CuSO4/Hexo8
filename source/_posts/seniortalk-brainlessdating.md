@@ -161,7 +161,10 @@ mathjax: true
 
 大抵就是我玩角色A，她玩B。在玩的时候，她总叫我把自己画面截图给她看；我还觉得是对她而言解密比较难，这样可以减低难度······我很快就意识到：这样做的目的，是她熟悉了角色A、B的流程操作之后，然后叫她的“男神”来玩，这样就能“带飞”了。
 
-　
+<video width="320" height="240" controls>
+  <source src="http://video.tomandjerrychase-consciouscourse.cyou/2.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
 
 那一阵子我一直感到特别奇怪。我问她是否喜欢学弟，她矢口否认。她却借我的帮助，在学习、游戏方面接近学弟。
 
